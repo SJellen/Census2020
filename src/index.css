@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title h1 {
+  font-size: 3rem;
+  
+}
+
+
+.instructions {
+  padding: 2rem;
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  border: .5px solid silver;
+}
+
+form {
+  width: 1000px;
+  padding: 4rem 4rem 4rem 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  background-color: white;
+  border: .5px solid silver;
+  
+}
+
+
+button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }

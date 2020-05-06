@@ -71,6 +71,41 @@ class App extends Component {
 
   render() {
     return (
+
+      <div>
+        <div className="title">
+        <h1>The 2020 Census</h1>
+        <h4>For informational purposes only.</h4>
+
+        </div>
+        
+        <br/>
+        <br/>
+        <div className="instructions">
+        <h3>Before you answer Question 1, count the people living in this house, apartment, or mobile home using our guidelines.</h3>
+       <ul>
+       <li>Count all people, including babies, who live and sleep here most of the time.</li>
+        <li>If no one lives and sleeps at this address most of the time, go online at my2020census.gov or call 1-844-330-2020</li>
+       </ul>
+
+
+        <h3>The census must also include people without a permanent place to live, so:</h3>
+        <ul>
+        <li>If someone who does not have a permanent place to live is staying here on April 1, 2020, count that person.</li>
+        
+        </ul>
+
+
+        <h3>The Census Bureau also conducts counts in institutions and other places, so:</h3>
+        <ul>
+        <li>Do not count anyone living away from here, either at college or in the Armed Forces.</li>
+        <li>Do not count anyone in a nursing home, jail, prison, detention facility, etc., on April 1, 2020.</li>
+        <li>Leave these people off your questionnaire, even if they will return to live here after they leave college, the nursing home, the military, jail, etc. Otherwise, they may be counted twice.</li>
+        </ul>
+
+        </div>
+       
+
       <form>
         <label> 1. How many people were living or staying in this house, apartment, or mobile home on April 1, 2020?</label>
         <br/>
@@ -543,15 +578,16 @@ class App extends Component {
 
                   />
 
-                 
+                 <br/>
+                 <br/>
   
-    
+                 <button type="submit" value="Submit">Submit </button>
     
     
   
 
       </form>
-      
+      </div>
     )
   }
 }
