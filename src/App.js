@@ -52,6 +52,12 @@ class App extends Component {
         question9d6: '',
 
 
+        question1_2FN: '',
+        question1_2MI: '',
+        question1_2LN: ''
+
+
+
        
 
 
@@ -66,6 +72,7 @@ class App extends Component {
   }
 
   handleSubmit(event) {
+    
     event.preventDefault()
   }
 
@@ -107,8 +114,10 @@ class App extends Component {
        
 
       <form>
-        <label> 1. How many people were living or staying in this house, apartment, or mobile home on April 1, 2020?</label>
+        <label className="question"> 1. How many people were living or staying in this house, apartment, or mobile home on April 1, 2020?</label>
         <br/>
+        <br/>
+        
         
         
 
@@ -123,9 +132,13 @@ class App extends Component {
          <br/>
         <br/>
 
-      <label>2. Were there any additional people staying here on April 1, 2020 that you did not include in Question 1? </label>
+        <br/>
+        <br/>
+
+      <label className="question">2. Were there any additional people staying here on April 1, 2020 that you did not include in Question 1? </label>
       <br/>
-      <label>Mark all that apply.</label>
+      <br/>
+      <label className="marking">Mark all that apply.</label>
       <br/>
       <br/>
                     <input 
@@ -134,6 +147,7 @@ class App extends Component {
                           checked={this.state.question2a}
                           onChange={this.handleChange}
                             />Children, related or unrelated, such as newborn babies, grandchildren, or foster children
+                         <br/>
                         <br/>
                     <input 
                           type="checkbox" 
@@ -141,6 +155,7 @@ class App extends Component {
                           checked={this.state.question2b}
                           onChange={this.handleChange}
                       />Relatives, such as adult children, cousins, or in-laws
+                       <br/>
                       <br/>
                     <input 
                           type="checkbox" 
@@ -148,14 +163,16 @@ class App extends Component {
                           checked={this.state.question2c}
                           onChange={this.handleChange}
                       />Nonrelatives, such as roommates or live-in babysitters
-                      <br/>
+                       <br/>
+                       <br/>
                     <input 
                           type="checkbox" 
                           name="question2d"
                           checked={this.state.question2d}
                           onChange={this.handleChange}
                       />People staying here temporarily
-                      <br/>
+                       <br/>
+                        <br/>
                     <input 
                           type="checkbox" 
                           name="question2e"
@@ -164,11 +181,14 @@ class App extends Component {
                       />No additional people
                       <br/>
                       <br/>
+                      <br/>
+                      <br/>
 
-
-                      <label>3. Is this house, apartment, or mobile home</label>
+                      <label className="question">3. Is this house, apartment, or mobile home</label>
+                      <br/>
+                      <br/>
+                    <label className="marking">Mark ONE box.</label>
                     <br/>
-                    <label>Mark ONE box.</label>
                     <br/>
                    
               
@@ -183,6 +203,7 @@ class App extends Component {
                     or loan? Include home equity loans.
                 </label>
                 <br/>
+                <br/>
                 <label>
                 <input 
                         type="radio" 
@@ -193,6 +214,7 @@ class App extends Component {
                     /> Owned by you or someone in this household free and clear (without a mortgage or loan)?
                 </label>
                 <br/>
+                <br/>
                 <label>
                 <input 
                         type="radio" 
@@ -202,6 +224,7 @@ class App extends Component {
                         onChange={this.handleChange}
                     />  Rented?
                 </label>
+                <br/>
                 <br/>
                 <label>
                 <input 
@@ -214,13 +237,16 @@ class App extends Component {
                 </label>
                 <br/>
                 <br/>
+                <br/>
+                <br/>
 
 
 
-
-          <label>4. What is your telephone number?</label>
+          <label className="question">4. What is your telephone number?</label>
           <br/>
-          <label>We will only contact you if needed for official Census Bureau business.</label>
+        <br/>
+          <label className="marking">We will only contact you if needed for official Census Bureau business.</label>
+          <br/>
         <br/>
           <input
           type="text" 
@@ -236,12 +262,16 @@ class App extends Component {
          <br/>
          <h1>Person 1</h1>
 
-        <label>5. Please provide information for each person living here. 
+         <br/>
+        <br/>
+
+        <label>Please provide information for each person living here. 
           If there is someone living here who pays the rent or owns this residence, start by listing him or her as Person 1. 
           If the owner or the person who pays the rent does not live here, start by listing any adult living here as Person 1.</label>
           <br/>
           <br/>
-          <label>What is Person 1’s name?</label>
+          <label className="question">5. What is Person 1’s name?</label>
+          <br/>
         <br/>
           <input
           type="text" 
@@ -267,13 +297,15 @@ class App extends Component {
           onChange={this.handleChange} 
 
         />
-
+       <br/>
+        <br/>
        
 
 <label>
   <br/>
   <br/>
-        <label>6. What is Person 1’s sex?</label>
+        <label className="question">6. What is Person 1’s sex?</label>
+        <br/>
         <br/>
 
 
@@ -298,11 +330,13 @@ class App extends Component {
 
                 <br/>
                 <br/>
-
+                <br/>
+                <br/>
     
-                <label>7. What is Person 1’s age and what is Person 1’s date of birth? For babies less than 1 year old, do not write the age in months. Write 0 as the age.</label>
+                <label className="question">7. What is Person 1’s age and what is Person 1’s date of birth? For babies less than 1 year old, do not write the age in months. Write 0 as the age.</label>
           
-        <br/>
+                <br/>
+                 <br/>
           <input
           type="text" 
           value={this.state.question7age} 
@@ -338,11 +372,13 @@ class App extends Component {
 
         <br/>
         <br/>
-
+        <br/>
+        <br/>
 
         <label>NOTE: Please answer BOTH Question 6 about Hispanic origin and Question 7 about race. For this census, Hispanic origins are not races.</label>
-      <br/>
-      <label>8. Is this person of Hispanic, Latino, or Spanish origin?</label>
+        <br/>
+        <br/>
+      <label className="question">8. Is this person of Hispanic, Latino, or Spanish origin?</label>
       <br/>
       <br/>
                     <input 
@@ -351,42 +387,52 @@ class App extends Component {
                           checked={this.state.question8a}
                           onChange={this.handleChange}
                             />No, not of Hispanic, Latino, or Spanish origin
-                        <br/>
+                         <br/>
+                          <br/>
                     <input 
                           type="checkbox" 
                           name="question8b"
                           checked={this.state.question8b}
                           onChange={this.handleChange}
                       />Yes, Mexican, Mexican Am., Chicano
-                      <br/>
+                       <br/>
+                          <br/>
                     <input 
                           type="checkbox" 
                           name="question8c"
                           checked={this.state.question8c}
                           onChange={this.handleChange}
                       />Yes, Puerto Rican
-                      <br/>
+                       <br/>
+                          <br/>
                     <input 
                           type="checkbox" 
                           name="question8d"
                           checked={this.state.question8d}
                           onChange={this.handleChange}
                       />People staying here temporarily
-                      <br/>
+                       <br/>
+                          <br/>
                     <input 
                           type="checkbox" 
                           name="question8e"
                           checked={this.state.question8e}
                           onChange={this.handleChange}
                       />Yes, Cuban
-                      <br/>
+                       <br/>
+                          <br/>
                       <input 
                           type="checkbox" 
                           name="question8e1"
                           checked={this.state.question8e1}
                           onChange={this.handleChange}
-                      />Yes, another Hispanic, Latino, or Spanish origin – Print, for example, Salvadoran, Dominican, Colombian, Guatemalan, Spaniard, Ecuadorian, etc.
+                      />Yes, another Hispanic, Latino, or Spanish origin 
+                       <br/>
                       <br/>
+                      <label className="input-head">Enter, for example, Salvadoran, Dominican, Colombian, Guatemalan, Spaniard, Ecuadorian, etc.</label>
+                      
+                       <br/>
+                          <br/>
 
 
                     
@@ -401,13 +447,14 @@ class App extends Component {
 
                   <br/>
                   <br/>
-
-
-                  <label>9. What is Person 1’s race?</label>
                   <br/>
                   <br/>
 
-                  <label>Mark one or more boxes AND print origins.</label>
+                  <label className="question">9. What is Person 1’s race?</label>
+                  <br/>
+                  <br/>
+
+                  <label className="marking">Mark one or more boxes AND print origins.</label>
                   <br/>
                   <br/>
                   <input 
@@ -415,7 +462,13 @@ class App extends Component {
                           name="question9white"
                           checked={this.state.question9white}
                           onChange={this.handleChange}
-                      />White – Print, for example, German, Irish, English, Italian, Lebanese, Egyptian, etc.
+                      />White
+                       <br/>
+                      <br/>
+
+                      <label className="input-head">Enter, for example, German, Irish, English, Italian, Lebanese, Egyptian, etc..</label>
+                      
+                      <br/>
                       <br/>
                     <input
                     type="text" 
@@ -432,7 +485,12 @@ class App extends Component {
                           name="question9black"
                           checked={this.state.question9black}
                           onChange={this.handleChange}
-                      />Black or African Am. – Print, for example, African American, Jamaican, Haitian, Nigerian, Ethiopian, Somali, etc.
+                      />Black or African Am.
+                       <br/>
+                        <br/>
+                        <label className="input-head">Enter, for example, African American, Jamaican, Haitian, Nigerian, Ethiopian, Somali, etc.</label>
+                      
+                      <br/>
                       <br/>
                     <input
                     type="text" 
@@ -451,15 +509,21 @@ class App extends Component {
                           onChange={this.handleChange}
                       />American Indian or Alaska Native 
                       <br/>
+                      <br/>
+                      <label className="input-head"> Enter name of enrolled or principal tribe(s), for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec,etc</label>
+                           
+                      <br/>
+                      <br/>      
                     <input
                     type="text" 
                     value={this.state.question9d3} 
                     name="question9d3" 
-                    placeholder="Print name of enrolled or principal tribe(s), for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc. " 
+                    placeholder="" 
                     onChange={this.handleChange} 
 
                   />
-                   <br/>
+                    <br/>
+                    <br/>
                   
                     <input 
                           type="checkbox" 
@@ -467,55 +531,63 @@ class App extends Component {
                           checked={this.state.question9Chinese}
                           onChange={this.handleChange}
                       />Chinese
-                      <br/>
+                       <br/>
+                        <br/>
                       <input 
                           type="checkbox" 
                           name="question9Vietnamese"
                           checked={this.state.question9Vietnamese}
                           onChange={this.handleChange}
                       />Vietnamese
-                      <br/>
+                       <br/>
+                        <br/>
                       <input 
                           type="checkbox" 
                           name="question9Hawaiian"
                           checked={this.state.question9Hawaiian}
                           onChange={this.handleChange}
                       />Hawaiian
-                      <br/>
+                       <br/>
+                        <br/>
                       <input 
                           type="checkbox" 
                           name="question9Filipino"
                           checked={this.state.question9Filipino}
                           onChange={this.handleChange}
                       />Filipino
-                      <br/>
+                       <br/>
+                        <br/>
                       <input 
                           type="checkbox" 
                           name="question9Korean"
                           checked={this.state.question9Korean}
                           onChange={this.handleChange}
                       />Korean
-                      <br/>
+                       <br/>
+                        <br/>
                       <input 
                           type="checkbox" 
                           name="question9Samoan"
                           checked={this.state.question9Samoan}
                           onChange={this.handleChange}
                       />Samoan
-                      <br/>
+                       <br/>
+                        <br/>
                       <input 
                           type="checkbox" 
                           name="question9AsianIndian"
                           checked={this.state.question9AsianIndian}
                           onChange={this.handleChange}
                       />Asian Indian
-                      <br/>
+                       <br/>
+                        <br/>
                       <input 
                           type="checkbox" 
                           name="question9Japanese"
                           checked={this.state.question9Japanese}
                           onChange={this.handleChange}
                       />Japanese
+                       <br/>
                       <br/>
                       <input 
                           type="checkbox" 
@@ -523,6 +595,7 @@ class App extends Component {
                           checked={this.state.question9Chamorro}
                           onChange={this.handleChange}
                       />Chamorro
+                       <br/>
                       <br/>
 
                       <input 
@@ -531,16 +604,22 @@ class App extends Component {
                           checked={this.state.question9OtherAsian}
                           onChange={this.handleChange}
                       />Other Asian
+                       <br/>
+                      <br/>
+                      <label className="input-head">Enter for example, Pakistani, Cambodian, Hmong, etc.</label>
+                      
+                      <br/>
                       <br/>
                     <input
                     type="text" 
                     value={this.state.question9d4} 
                     name="question9d4" 
-                    placeholder="Print for example, Pakistani, Cambodian, Hmong, etc." 
+                    placeholder="" 
                     onChange={this.handleChange} 
 
                   />
-                  <br/>
+                   <br/>
+                      <br/>
                   
 
                       <input 
@@ -548,18 +627,26 @@ class App extends Component {
                           name="question9OtherPI"
                           checked={this.state.question9OtherPI}
                           onChange={this.handleChange}
-                      />Other Pacific Islander
+                      />
+                     
+                      Other Pacific Islander
+                       <br/>
                       <br/>
-                   
+                      <label className="input-head">Enter, for example, Tongan, Fijian, Marshallese, etc.</label>
+                      
+                      <br/>
+                      <br/>
                     <input
                     type="text" 
                     value={this.state.question9d5} 
                     name="question9d5" 
-                    placeholder="Print, for example, Tongan, Fijian, Marshallese, etc." 
+                    placeholder="" 
                     onChange={this.handleChange} 
 
                   />
-                  <br/>
+                  
+                   <br/>
+                      <br/>
 
 
                     <input 
@@ -567,24 +654,68 @@ class App extends Component {
                           name="question9Other"
                           checked={this.state.question9Other}
                           onChange={this.handleChange}
-                      />Some other race 
-                       <br/>
+                      />
+                      Some other race 
+                        <br/>
+                      <br/>
+                      <label className="input-head">Enter race or origin.</label>
+                      
+                      <br/>
+                      <br/>
+
                     <input
                     type="text" 
                     value={this.state.question9d6} 
                     name="question9d6" 
-                    placeholder="Print race or origin." 
+                    placeholder="" 
                     onChange={this.handleChange} 
 
                   />
 
                  <br/>
                  <br/>
+
+
+
+                 <h1>Person 2</h1>
+
+                <br/>
+                <br/>
+
+                <label className="question">1. What is Person 2’s name?</label>
+          <br/>
+        <br/>
+          <input
+          type="text" 
+          value={this.state.question1_2FN} 
+          name="question1_2FN" 
+          placeholder="First Name" 
+          onChange={this.handleChange} 
+
+        />
+         <input
+          type="text" 
+          value={this.state.question1_2MI} 
+          name="question1_2MI" 
+          placeholder="MI" 
+          onChange={this.handleChange} 
+
+        />
+         <input
+          type="text" 
+          value={this.state.question1_2LN} 
+          name="question1_2LN" 
+          placeholder="Last Name" 
+          onChange={this.handleChange} 
+
+        />
+       <br/>
+        <br/>
   
                  <button type="submit" value="Submit">Submit </button>
     
     
-  
+    
 
       </form>
       </div>

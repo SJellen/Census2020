@@ -51,7 +51,34 @@ form {
 
 
 button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  position: relative;
+  left: 44%;
+  background-color: #123FC2;
+  color: white;
+  border: none;
+  padding: .5rem 1.5rem;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .7;
+  transition: .5s ease-in
+}
+
+input {
+  margin-left: 2rem;
+}
+
+.marking {
+  margin-left: 1rem;
+  
+}
+
+.input-head {
+  margin-left: 2rem;
+}
+
+.question {
+  font-weight: 800;
 }
