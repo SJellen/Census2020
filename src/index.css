@@ -82,3 +82,9 @@ input {
 .question {
   font-weight: 800;
 }
+
+.disclaimer {
+  text-align: center;
+  font-style: italic;
+  
+}
