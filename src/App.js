@@ -2069,7 +2069,7 @@ onChange={this.handleChange}
   <br/>
   <br/>
 
-  <label className="question">7. What is Person 2’s race?</label>
+  <label className="question">7. What is Person 3’s race?</label>
   <br/>
   <br/>
 
@@ -2309,29 +2309,29 @@ onChange={this.handleChange}
 <br/>
 <br/>
 
-<label className="question">1. What is Person 2’s name?</label>
+<label className="question">1. What is Person 4’s name?</label>
 <br/>
 <br/>
 <input
 type="text" 
-value={this.state.question1_2FN} 
-name="question1_2FN" 
+value={this.state.question1_4FN} 
+name="question1_4FN" 
 placeholder="First Name" 
 onChange={this.handleChange} 
 
 />
 <input
 type="text" 
-value={this.state.question1_2MI} 
-name="question1_2MI" 
+value={this.state.question1_4MI} 
+name="question1_4MI" 
 placeholder="MI" 
 onChange={this.handleChange} 
 
 />
 <input
 type="text" 
-value={this.state.question1_2LN} 
-name="question1_2LN" 
+value={this.state.question1_4LN} 
+name="question1_4LN" 
 placeholder="Last Name" 
 onChange={this.handleChange} 
 
@@ -2340,7 +2340,7 @@ onChange={this.handleChange}
 <br/>
 <br/>
 <br/>
-
+   
 
 <label className="question">2. Does this person usually live or stay somewhere else?</label>
 <br/>
@@ -2352,40 +2352,40 @@ onChange={this.handleChange}
        
 <input 
           type="checkbox" 
-          name="question2a2"
-          checked={this.state.question2a2}
+          name="question2a4"
+          checked={this.state.question2a4}
           onChange={this.handleChange}
             />No
          <br/>
         <br/>
     <input 
           type="checkbox" 
-          name="question2b2"
-          checked={this.state.question2b2}
+          name="question2b4"
+          checked={this.state.question2b4}
           onChange={this.handleChange}
       />Yes, for college
        <br/>
       <br/>
     <input 
           type="checkbox" 
-          name="question2c2"
-          checked={this.state.question2c2}
+          name="question2c4"
+          checked={this.state.question2c4}
           onChange={this.handleChange}
       />Yes, for a military assignment
        <br/>
        <br/>
     <input 
           type="checkbox" 
-          name="question2d2"
-          checked={this.state.question2d2}
+          name="question2d4"
+          checked={this.state.question2d4}
           onChange={this.handleChange}
       />Yes, for a job or business
        <br/>
         <br/>
     <input 
           type="checkbox" 
-          name="question2e2"
-          checked={this.state.question2e2}
+          name="question2e4"
+          checked={this.state.question2e4}
           onChange={this.handleChange}
       />Yes, in a nursing home
           <br/>
@@ -2393,32 +2393,32 @@ onChange={this.handleChange}
 
       <input 
           type="checkbox" 
-          name="question2f2"
-          checked={this.state.question2f2}
+          name="question2f4"
+          checked={this.state.question2f4}
           onChange={this.handleChange}
             />Yes, with a parent or other relative
          <br/>
         <br/>
     <input 
           type="checkbox" 
-          name="question2g2"
-          checked={this.state.question2g2}
+          name="question2g4"
+          checked={this.state.question2g4}
           onChange={this.handleChange}
       />Yes, at a seasonal or second residence
        <br/>
       <br/>
     <input 
           type="checkbox" 
-          name="question2h2"
-          checked={this.state.question2h2}
+          name="question2h4"
+          checked={this.state.question2h4}
           onChange={this.handleChange}
       />Yes, in a jail or prison
        <br/>
        <br/>
     <input 
           type="checkbox" 
-          name="question2i2"
-          checked={this.state.question2i2}
+          name="question2i4"
+          checked={this.state.question2i4}
           onChange={this.handleChange}
       />Yes, for another reason
        <br/>
@@ -2437,9 +2437,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Opposite-sex husband/wife/spouse"
-        checked={this.state.question3 === "Opposite-sex husband/wife/spouse"}
+        checked={this.state.question3_4 === "Opposite-sex husband/wife/spouse"}
         onChange={this.handleChange}
     /> Opposite-sex husband/wife/spouse
 </label>
@@ -2448,9 +2448,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Opposite-sex unmarried partner"
-        checked={this.state.question3 === "Opposite-sex unmarried partner"}
+        checked={this.state.question3_4 === "Opposite-sex unmarried partner"}
         onChange={this.handleChange}
     /> Opposite-sex unmarried partner
 </label>
@@ -2459,9 +2459,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Same-sex husband/wife/spouse"
-        checked={this.state.question3 === "Same-sex husband/wife/spouse"}
+        checked={this.state.question3_4 === "Same-sex husband/wife/spouse"}
         onChange={this.handleChange}
     /> Same-sex husband/wife/spouse
 </label>
@@ -2470,9 +2470,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Same-sex unmarried partner"
-        checked={this.state.question3 === "Same-sex unmarried partner"}
+        checked={this.state.question3_4 === "Same-sex unmarried partner"}
         onChange={this.handleChange}
     /> Same-sex unmarried partner
 </label>
@@ -2483,9 +2483,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Biological son or daughter"
-        checked={this.state.question3 === "Biological son or daughter"}
+        checked={this.state.question3_4 === "Biological son or daughter"}
         onChange={this.handleChange}
     /> Biological son or daughter
 </label>
@@ -2494,9 +2494,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Adopted son or daughter"
-        checked={this.state.question3 === "Adopted son or daughter"}
+        checked={this.state.question3_4 === "Adopted son or daughter"}
         onChange={this.handleChange}
     /> Adopted son or daughter
 </label>
@@ -2505,9 +2505,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Stepson or stepdaughter"
-        checked={this.state.question3 === "Stepson or stepdaughter"}
+        checked={this.state.question3_4 === "Stepson or stepdaughter"}
         onChange={this.handleChange}
     /> Stepson or stepdaughter
 </label>
@@ -2516,9 +2516,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Brother or sister"
-        checked={this.state.question3 === "Brother or sister"}
+        checked={this.state.question3_4 === "Brother or sister"}
         onChange={this.handleChange}
     /> Brother or sister
 </label>
@@ -2527,9 +2527,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Father or mother"
-        checked={this.state.question3 === "Father or mother"}
+        checked={this.state.question3_4 === "Father or mother"}
         onChange={this.handleChange}
     /> Father or mother
 </label>
@@ -2538,9 +2538,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Grandchild"
-        checked={this.state.question3 === "Grandchild"}
+        checked={this.state.question3_4 === "Grandchild"}
         onChange={this.handleChange}
     /> Grandchild
 </label>
@@ -2549,9 +2549,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Parent-in-law"
-        checked={this.state.question3 === "Parent-in-law"}
+        checked={this.state.question3_4 === "Parent-in-law"}
         onChange={this.handleChange}
     /> Parent-in-law
 </label>
@@ -2560,9 +2560,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Son-in-law or daughter-in-law"
-        checked={this.state.question3 === "Son-in-law or daughter-in-law"}
+        checked={this.state.question3_4 === "Son-in-law or daughter-in-law"}
         onChange={this.handleChange}
     />  Son-in-law or daughter-in-law
 </label>
@@ -2571,9 +2571,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Other relative"
-        checked={this.state.question3 === "Other relative"}
+        checked={this.state.question3_4 === "Other relative"}
         onChange={this.handleChange}
     /> Other relative
 </label>
@@ -2582,9 +2582,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Roommate or housemate"
-        checked={this.state.question3 === "Roommate or housemate"}
+        checked={this.state.question3_4 === "Roommate or housemate"}
         onChange={this.handleChange}
     /> Roommate or housemate
 </label>
@@ -2593,9 +2593,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Foster child"
-        checked={this.state.question3 === "Foster child"}
+        checked={this.state.question3_4 === "Foster child"}
         onChange={this.handleChange}
     />  Foster child
 </label>
@@ -2604,9 +2604,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_4"
         value="Other nonrelative"
-        checked={this.state.question3 === "Other nonrelative"}
+        checked={this.state.question3_4 === "Other nonrelative"}
         onChange={this.handleChange}
     />  Other nonrelative
 </label>
@@ -2618,16 +2618,16 @@ onChange={this.handleChange}
 <br/>
 <br/>
 
-<label className="question">4. What is Person 2’s sex?</label>
+<label className="question">4. What is Person 4’s sex?</label>
 <br/>
 <br/>
 <label>
 
     <input 
         type="radio" 
-        name="question4_2"
+        name="question4_4"
         value="male"
-        checked={this.state.question4_2 === "male"}
+        checked={this.state.question4_4 === "male"}
         onChange={this.handleChange}
     /> Male
 </label>
@@ -2635,9 +2635,9 @@ onChange={this.handleChange}
 <label>
     <input 
         type="radio" 
-        name="question4_2"
+        name="question4_4"
         value="female"
-        checked={this.state.question4_2 === "female"}
+        checked={this.state.question4_4 === "female"}
         onChange={this.handleChange}
     /> Female
 </label>
@@ -2647,43 +2647,43 @@ onChange={this.handleChange}
 <br/>
 <br/>
 
-<label className="question">5. What is Person 2’s age and what is Person 2’s date of birth? For babies less than 1 year old, do not write the age in months. Write 0 as the age.</label>
+<label className="question">5. What is Person 4’s age and what is Person 4’s date of birth? For babies less than 1 year old, do not write the age in months. Write 0 as the age.</label>
             
             <br/>
             <br/>
       <input
       type="text" 
-      value={this.state.question5_2age} 
-      name="question5_2age" 
+      value={this.state.question5_4age} 
+      name="question5_4age" 
       placeholder="Years old on 4/01/2020" 
       onChange={this.handleChange} 
 
     />
     <input
       type="text" 
-      value={this.state.question5_2month} 
-      name="question5_2month" 
+      value={this.state.question5_4month} 
+      name="question5_4month" 
       placeholder="Month" 
       onChange={this.handleChange} 
 
     />
     <input
       type="text" 
-      value={this.state.question5_2day} 
-      name="question5_2day" 
+      value={this.state.question5_4day} 
+      name="question5_4day" 
       placeholder="Day" 
       onChange={this.handleChange} 
 
     />
     <input
       type="text" 
-      value={this.state.question5_2year} 
-      name="question5_2year" 
+      value={this.state.question5_4year} 
+      name="question5_4year" 
       placeholder="Year of Birth" 
       onChange={this.handleChange} 
 
     />
-
+                
         
 
     <br/>
@@ -2699,48 +2699,48 @@ onChange={this.handleChange}
 <br/>
     <input 
           type="checkbox" 
-          name="question6_2a"
-          checked={this.state.question6_2a}
+          name="question6_4a"
+          checked={this.state.question6_4a}
           onChange={this.handleChange}
             />No, not of Hispanic, Latino, or Spanish origin
          <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2b"
-          checked={this.state.question6_2b}
+          name="question6_4b"
+          checked={this.state.question6_4b}
           onChange={this.handleChange}
       />Yes, Mexican, Mexican Am., Chicano
        <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2c"
-          checked={this.state.question6_2c}
+          name="question6_4c"
+          checked={this.state.question6_4c}
           onChange={this.handleChange}
       />Yes, Puerto Rican
        <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2d"
-          checked={this.state.question6_2d}
+          name="question6_4d"
+          checked={this.state.question6_4d}
           onChange={this.handleChange}
       />People staying here temporarily
        <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2e"
-          checked={this.state.question6_2e}
+          name="question6_4e"
+          checked={this.state.question6_4e}
           onChange={this.handleChange}
       />Yes, Cuban
        <br/>
           <br/>
       <input 
           type="checkbox" 
-          name="question6_2e1"
-          checked={this.state.question6_2e1}
+          name="question6_4e1"
+          checked={this.state.question6_4e1}
           onChange={this.handleChange}
       />Yes, another Hispanic, Latino, or Spanish origin 
        <br/>
@@ -2754,21 +2754,21 @@ onChange={this.handleChange}
     
     <input
     type="text" 
-    value={this.state.question6_2e2} 
-    name="question6_2e2" 
+    value={this.state.question6_4e2} 
+    name="question6_4e2" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
 
-        
+
 
   <br/>
   <br/>
   <br/>
   <br/>
 
-  <label className="question">7. What is Person 2’s race?</label>
+  <label className="question">7. What is Person 4’s race?</label>
   <br/>
   <br/>
 
@@ -2777,8 +2777,8 @@ onChange={this.handleChange}
   <br/>
   <input 
           type="checkbox" 
-          name="question7_2white"
-          checked={this.state.question7_2white}
+          name="question7_4white"
+          checked={this.state.question7_4white}
           onChange={this.handleChange}
       />White
        <br/>
@@ -2790,19 +2790,21 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d1} 
-    name="question7_2d1" 
+    value={this.state.question7_4d1} 
+    name="question7_4d1" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
+
+
  
   <br/>
   <br/>
   <input 
           type="checkbox" 
-          name="question7_2black"
-          checked={this.state.question7_2black}
+          name="question7_4black"
+          checked={this.state.question7_4black}
           onChange={this.handleChange}
       />Black or African Am.
        <br/>
@@ -2813,19 +2815,19 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d2} 
-    name="question7_2d2" 
+    value={this.state.question7_4d2} 
+    name="question7_4d2" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
-  
+                  
   <br/>
   <br/>
   <input 
           type="checkbox" 
-          name="question7_2native"
-          checked={this.state.question7_2native}
+          name="question7_4native"
+          checked={this.state.question7_4native}
           onChange={this.handleChange}
       />American Indian or Alaska Native 
       <br/>
@@ -2836,84 +2838,84 @@ onChange={this.handleChange}
       <br/>      
     <input
     type="text" 
-    value={this.state.question7_2d3} 
-    name="question7_2d3" 
+    value={this.state.question7_4d3} 
+    name="question7_4d3" 
     placeholder="" 
     onChange={this.handleChange} 
 
-  />
+  />              
    
     <br/>
     <br/>
   
     <input 
           type="checkbox" 
-          name="question7_2chinese"
-          checked={this.state.question7_2Chinese}
+          name="question7_4chinese"
+          checked={this.state.question7_4Chinese}
           onChange={this.handleChange}
       />Chinese
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Vietnamese"
-          checked={this.state.question7_2Vietnamese}
+          name="question7_4Vietnamese"
+          checked={this.state.question7_4Vietnamese}
           onChange={this.handleChange}
       />Vietnamese
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Hawaiian"
-          checked={this.state.question7_2Hawaiian}
+          name="question7_4Hawaiian"
+          checked={this.state.question7_4Hawaiian}
           onChange={this.handleChange}
       />Hawaiian
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Filipino"
-          checked={this.state.question7_2Filipino}
+          name="question7_4Filipino"
+          checked={this.state.question7_4Filipino}
           onChange={this.handleChange}
       />Filipino
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Korean"
-          checked={this.state.question7_2Korean}
+          name="question7_4Korean"
+          checked={this.state.question7_4Korean}
           onChange={this.handleChange}
       />Korean
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Samoan"
-          checked={this.state.question7_2Samoan}
+          name="question7_4Samoan"
+          checked={this.state.question7_4Samoan}
           onChange={this.handleChange}
       />Samoan
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2AsianIndian"
-          checked={this.state.question7_2AsianIndian}
+          name="question7_4AsianIndian"
+          checked={this.state.question7_4AsianIndian}
           onChange={this.handleChange}
       />Asian Indian
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Japanese"
-          checked={this.state.question7_2Japanese}
+          name="question7_4Japanese"
+          checked={this.state.question7_4Japanese}
           onChange={this.handleChange}
       />Japanese
        <br/>
       <br/>
       <input 
           type="checkbox" 
-          name="question7_2Chamorro"
-          checked={this.state.question7_2Chamorro}
+          name="question7_4Chamorro"
+          checked={this.state.question7_4Chamorro}
           onChange={this.handleChange}
       />Chamorro
        <br/>
@@ -2921,8 +2923,8 @@ onChange={this.handleChange}
 
       <input 
           type="checkbox" 
-          name="question7_2OtherAsian"
-          checked={this.state.question7_2OtherAsian}
+          name="question7_4OtherAsian"
+          checked={this.state.question7_4OtherAsian}
           onChange={this.handleChange}
       />Other Asian
        <br/>
@@ -2933,12 +2935,15 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d4} 
-    name="question7_2d4" 
+    value={this.state.question7_4d4} 
+    name="question7_4d4" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
+
+
+
  
    <br/>
       <br/>
@@ -2946,8 +2951,8 @@ onChange={this.handleChange}
 
       <input 
           type="checkbox" 
-          name="question7_2OtherPI"
-          checked={this.state.question7_2OtherPI}
+          name="question7_4OtherPI"
+          checked={this.state.question7_4OtherPI}
           onChange={this.handleChange}
       />
      
@@ -2960,13 +2965,13 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d5} 
-    name="question7_2d5" 
+    value={this.state.question7_4d5} 
+    name="question7_4d5" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
-  
+        
   
    <br/>
       <br/>
@@ -2974,8 +2979,8 @@ onChange={this.handleChange}
 
     <input 
           type="checkbox" 
-          name="question7_2Other"
-          checked={this.state.question7_2Other}
+          name="question7_4Other"
+          checked={this.state.question7_4Other}
           onChange={this.handleChange}
       />
       Some other race 
@@ -2987,8 +2992,8 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d6} 
-    name="question7_2d6" 
+    value={this.state.question7_4d6} 
+    name="question7_4d6" 
     placeholder="" 
     onChange={this.handleChange} 
 
@@ -3004,33 +3009,36 @@ onChange={this.handleChange}
 <br/>
 <br/>
 
-<label className="question">1. What is Person 2’s name?</label>
+<label className="question">1. What is Person 5’s name?</label>
 <br/>
 <br/>
-<input
-type="text" 
-value={this.state.question1_2FN} 
-name="question1_2FN" 
-placeholder="First Name" 
-onChange={this.handleChange} 
+                <input
+                type="text" 
+                value={this.state.question1_5FN} 
+                name="question1_5FN" 
+                placeholder="First Name" 
+                onChange={this.handleChange} 
 
-/>
-<input
-type="text" 
-value={this.state.question1_2MI} 
-name="question1_2MI" 
-placeholder="MI" 
-onChange={this.handleChange} 
+                />
+                <input
+                type="text" 
+                value={this.state.question1_5MI} 
+                name="question1_5MI" 
+                placeholder="MI" 
+                onChange={this.handleChange} 
 
-/>
-<input
-type="text" 
-value={this.state.question1_2LN} 
-name="question1_2LN" 
-placeholder="Last Name" 
-onChange={this.handleChange} 
+                />
+                <input
+                type="text" 
+                value={this.state.question1_5LN} 
+                name="question1_5LN" 
+                placeholder="Last Name" 
+                onChange={this.handleChange} 
 
-/>
+                />
+
+
+               
 <br/>
 <br/>
 <br/>
@@ -3047,40 +3055,40 @@ onChange={this.handleChange}
        
 <input 
           type="checkbox" 
-          name="question2a2"
-          checked={this.state.question2a2}
+          name="question2a5"
+          checked={this.state.question2a5}
           onChange={this.handleChange}
             />No
          <br/>
         <br/>
     <input 
           type="checkbox" 
-          name="question2b2"
-          checked={this.state.question2b2}
+          name="question2b5"
+          checked={this.state.question2b5}
           onChange={this.handleChange}
       />Yes, for college
        <br/>
       <br/>
     <input 
           type="checkbox" 
-          name="question2c2"
-          checked={this.state.question2c2}
+          name="question2c5"
+          checked={this.state.question2c5}
           onChange={this.handleChange}
       />Yes, for a military assignment
        <br/>
        <br/>
     <input 
           type="checkbox" 
-          name="question2d2"
-          checked={this.state.question2d2}
+          name="question2d5"
+          checked={this.state.question2d5}
           onChange={this.handleChange}
       />Yes, for a job or business
        <br/>
         <br/>
     <input 
           type="checkbox" 
-          name="question2e2"
-          checked={this.state.question2e2}
+          name="question2e5"
+          checked={this.state.question2e5}
           onChange={this.handleChange}
       />Yes, in a nursing home
           <br/>
@@ -3088,32 +3096,32 @@ onChange={this.handleChange}
 
       <input 
           type="checkbox" 
-          name="question2f2"
-          checked={this.state.question2f2}
+          name="question2f5"
+          checked={this.state.question2f5}
           onChange={this.handleChange}
             />Yes, with a parent or other relative
          <br/>
         <br/>
     <input 
           type="checkbox" 
-          name="question2g2"
-          checked={this.state.question2g2}
+          name="question2g5"
+          checked={this.state.question2g5}
           onChange={this.handleChange}
       />Yes, at a seasonal or second residence
        <br/>
       <br/>
     <input 
           type="checkbox" 
-          name="question2h2"
-          checked={this.state.question2h2}
+          name="question2h5"
+          checked={this.state.question2h5}
           onChange={this.handleChange}
       />Yes, in a jail or prison
        <br/>
        <br/>
     <input 
           type="checkbox" 
-          name="question2i2"
-          checked={this.state.question2i2}
+          name="question2i5"
+          checked={this.state.question2i5}
           onChange={this.handleChange}
       />Yes, for another reason
        <br/>
@@ -3132,9 +3140,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Opposite-sex husband/wife/spouse"
-        checked={this.state.question3 === "Opposite-sex husband/wife/spouse"}
+        checked={this.state.question3_5 === "Opposite-sex husband/wife/spouse"}
         onChange={this.handleChange}
     /> Opposite-sex husband/wife/spouse
 </label>
@@ -3143,9 +3151,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Opposite-sex unmarried partner"
-        checked={this.state.question3 === "Opposite-sex unmarried partner"}
+        checked={this.state.question3_5 === "Opposite-sex unmarried partner"}
         onChange={this.handleChange}
     /> Opposite-sex unmarried partner
 </label>
@@ -3154,9 +3162,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Same-sex husband/wife/spouse"
-        checked={this.state.question3 === "Same-sex husband/wife/spouse"}
+        checked={this.state.question3_5 === "Same-sex husband/wife/spouse"}
         onChange={this.handleChange}
     /> Same-sex husband/wife/spouse
 </label>
@@ -3165,9 +3173,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Same-sex unmarried partner"
-        checked={this.state.question3 === "Same-sex unmarried partner"}
+        checked={this.state.question3_5 === "Same-sex unmarried partner"}
         onChange={this.handleChange}
     /> Same-sex unmarried partner
 </label>
@@ -3178,9 +3186,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Biological son or daughter"
-        checked={this.state.question3 === "Biological son or daughter"}
+        checked={this.state.question3_5 === "Biological son or daughter"}
         onChange={this.handleChange}
     /> Biological son or daughter
 </label>
@@ -3189,9 +3197,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Adopted son or daughter"
-        checked={this.state.question3 === "Adopted son or daughter"}
+        checked={this.state.question3_5 === "Adopted son or daughter"}
         onChange={this.handleChange}
     /> Adopted son or daughter
 </label>
@@ -3200,9 +3208,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Stepson or stepdaughter"
-        checked={this.state.question3 === "Stepson or stepdaughter"}
+        checked={this.state.question3_5 === "Stepson or stepdaughter"}
         onChange={this.handleChange}
     /> Stepson or stepdaughter
 </label>
@@ -3211,9 +3219,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Brother or sister"
-        checked={this.state.question3 === "Brother or sister"}
+        checked={this.state.question3_5 === "Brother or sister"}
         onChange={this.handleChange}
     /> Brother or sister
 </label>
@@ -3222,9 +3230,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Father or mother"
-        checked={this.state.question3 === "Father or mother"}
+        checked={this.state.question3_5 === "Father or mother"}
         onChange={this.handleChange}
     /> Father or mother
 </label>
@@ -3233,9 +3241,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Grandchild"
-        checked={this.state.question3 === "Grandchild"}
+        checked={this.state.question3_5 === "Grandchild"}
         onChange={this.handleChange}
     /> Grandchild
 </label>
@@ -3244,9 +3252,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Parent-in-law"
-        checked={this.state.question3 === "Parent-in-law"}
+        checked={this.state.question3_5 === "Parent-in-law"}
         onChange={this.handleChange}
     /> Parent-in-law
 </label>
@@ -3255,9 +3263,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Son-in-law or daughter-in-law"
-        checked={this.state.question3 === "Son-in-law or daughter-in-law"}
+        checked={this.state.question3_5 === "Son-in-law or daughter-in-law"}
         onChange={this.handleChange}
     />  Son-in-law or daughter-in-law
 </label>
@@ -3266,9 +3274,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Other relative"
-        checked={this.state.question3 === "Other relative"}
+        checked={this.state.question3_5 === "Other relative"}
         onChange={this.handleChange}
     /> Other relative
 </label>
@@ -3277,9 +3285,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Roommate or housemate"
-        checked={this.state.question3 === "Roommate or housemate"}
+        checked={this.state.question3_5 === "Roommate or housemate"}
         onChange={this.handleChange}
     /> Roommate or housemate
 </label>
@@ -3288,9 +3296,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Foster child"
-        checked={this.state.question3 === "Foster child"}
+        checked={this.state.question3_5 === "Foster child"}
         onChange={this.handleChange}
     />  Foster child
 </label>
@@ -3299,9 +3307,9 @@ onChange={this.handleChange}
 <label>
 <input 
         type="radio" 
-        name="question3"
+        name="question3_5"
         value="Other nonrelative"
-        checked={this.state.question3 === "Other nonrelative"}
+        checked={this.state.question3_5 === "Other nonrelative"}
         onChange={this.handleChange}
     />  Other nonrelative
 </label>
@@ -3313,16 +3321,16 @@ onChange={this.handleChange}
 <br/>
 <br/>
 
-<label className="question">4. What is Person 2’s sex?</label>
+<label className="question">4. What is Person 5’s sex?</label>
 <br/>
 <br/>
 <label>
 
     <input 
         type="radio" 
-        name="question4_2"
+        name="question4_5"
         value="male"
-        checked={this.state.question4_2 === "male"}
+        checked={this.state.question4_5 === "male"}
         onChange={this.handleChange}
     /> Male
 </label>
@@ -3330,9 +3338,9 @@ onChange={this.handleChange}
 <label>
     <input 
         type="radio" 
-        name="question4_2"
+        name="question4_5"
         value="female"
-        checked={this.state.question4_2 === "female"}
+        checked={this.state.question4_5 === "female"}
         onChange={this.handleChange}
     /> Female
 </label>
@@ -3342,44 +3350,44 @@ onChange={this.handleChange}
 <br/>
 <br/>
 
-<label className="question">5. What is Person 2’s age and what is Person 2’s date of birth? For babies less than 1 year old, do not write the age in months. Write 0 as the age.</label>
+<label className="question">5. What is Person 5’s age and what is Person 5’s date of birth? For babies less than 1 year old, do not write the age in months. Write 0 as the age.</label>
             
             <br/>
             <br/>
       <input
       type="text" 
-      value={this.state.question5_2age} 
-      name="question5_2age" 
+      value={this.state.question5_5age} 
+      name="question5_5age" 
       placeholder="Years old on 4/01/2020" 
       onChange={this.handleChange} 
 
     />
     <input
       type="text" 
-      value={this.state.question5_2month} 
-      name="question5_2month" 
+      value={this.state.question5_5month} 
+      name="question5_5month" 
       placeholder="Month" 
       onChange={this.handleChange} 
 
     />
     <input
       type="text" 
-      value={this.state.question5_2day} 
-      name="question5_2day" 
+      value={this.state.question5_5day} 
+      name="question5_5day" 
       placeholder="Day" 
       onChange={this.handleChange} 
 
     />
     <input
       type="text" 
-      value={this.state.question5_2year} 
-      name="question5_2year" 
+      value={this.state.question5_5year} 
+      name="question5_5year" 
       placeholder="Year of Birth" 
       onChange={this.handleChange} 
 
     />
 
-        
+            
 
     <br/>
     <br/>
@@ -3394,48 +3402,48 @@ onChange={this.handleChange}
 <br/>
     <input 
           type="checkbox" 
-          name="question6_2a"
-          checked={this.state.question6_2a}
+          name="question6_5a"
+          checked={this.state.question6_5a}
           onChange={this.handleChange}
             />No, not of Hispanic, Latino, or Spanish origin
          <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2b"
-          checked={this.state.question6_2b}
+          name="question6_5b"
+          checked={this.state.question6_5b}
           onChange={this.handleChange}
       />Yes, Mexican, Mexican Am., Chicano
        <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2c"
-          checked={this.state.question6_2c}
+          name="question6_5c"
+          checked={this.state.question6_5c}
           onChange={this.handleChange}
       />Yes, Puerto Rican
        <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2d"
-          checked={this.state.question6_2d}
+          name="question6_5d"
+          checked={this.state.question6_5d}
           onChange={this.handleChange}
       />People staying here temporarily
        <br/>
           <br/>
     <input 
           type="checkbox" 
-          name="question6_2e"
-          checked={this.state.question6_2e}
+          name="question6_5e"
+          checked={this.state.question6_5e}
           onChange={this.handleChange}
       />Yes, Cuban
        <br/>
           <br/>
       <input 
           type="checkbox" 
-          name="question6_2e1"
-          checked={this.state.question6_2e1}
+          name="question6_5e1"
+          checked={this.state.question6_5e1}
           onChange={this.handleChange}
       />Yes, another Hispanic, Latino, or Spanish origin 
        <br/>
@@ -3449,13 +3457,13 @@ onChange={this.handleChange}
     
     <input
     type="text" 
-    value={this.state.question6_2e2} 
-    name="question6_2e2" 
+    value={this.state.question6_5e2} 
+    name="question6_5e2" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
-
+     
         
 
   <br/>
@@ -3463,7 +3471,7 @@ onChange={this.handleChange}
   <br/>
   <br/>
 
-  <label className="question">7. What is Person 2’s race?</label>
+  <label className="question">7. What is Person 5’s race?</label>
   <br/>
   <br/>
 
@@ -3472,8 +3480,8 @@ onChange={this.handleChange}
   <br/>
   <input 
           type="checkbox" 
-          name="question7_2white"
-          checked={this.state.question7_2white}
+          name="question7_5white"
+          checked={this.state.question7_5white}
           onChange={this.handleChange}
       />White
        <br/>
@@ -3485,19 +3493,20 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d1} 
-    name="question7_2d1" 
+    value={this.state.question7_5d1} 
+    name="question7_5d1" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
+   
  
   <br/>
   <br/>
   <input 
           type="checkbox" 
-          name="question7_2black"
-          checked={this.state.question7_2black}
+          name="question7_5black"
+          checked={this.state.question7_5black}
           onChange={this.handleChange}
       />Black or African Am.
        <br/>
@@ -3508,19 +3517,19 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d2} 
-    name="question7_2d2" 
+    value={this.state.question7_5d2} 
+    name="question7_5d2" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
-  
+       
   <br/>
   <br/>
   <input 
           type="checkbox" 
-          name="question7_2native"
-          checked={this.state.question7_2native}
+          name="question7_5native"
+          checked={this.state.question7_5native}
           onChange={this.handleChange}
       />American Indian or Alaska Native 
       <br/>
@@ -3531,84 +3540,86 @@ onChange={this.handleChange}
       <br/>      
     <input
     type="text" 
-    value={this.state.question7_2d3} 
-    name="question7_2d3" 
+    value={this.state.question7_5d3} 
+    name="question7_5d3" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
+
+
    
     <br/>
     <br/>
   
     <input 
           type="checkbox" 
-          name="question7_2chinese"
-          checked={this.state.question7_2Chinese}
+          name="question7_5chinese"
+          checked={this.state.question7_5Chinese}
           onChange={this.handleChange}
       />Chinese
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Vietnamese"
-          checked={this.state.question7_2Vietnamese}
+          name="question7_5Vietnamese"
+          checked={this.state.question7_5Vietnamese}
           onChange={this.handleChange}
       />Vietnamese
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Hawaiian"
-          checked={this.state.question7_2Hawaiian}
+          name="question7_5Hawaiian"
+          checked={this.state.question7_5Hawaiian}
           onChange={this.handleChange}
       />Hawaiian
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Filipino"
-          checked={this.state.question7_2Filipino}
+          name="question7_5Filipino"
+          checked={this.state.question7_5Filipino}
           onChange={this.handleChange}
       />Filipino
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Korean"
-          checked={this.state.question7_2Korean}
+          name="question7_5Korean"
+          checked={this.state.question7_5Korean}
           onChange={this.handleChange}
       />Korean
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Samoan"
-          checked={this.state.question7_2Samoan}
+          name="question7_5Samoan"
+          checked={this.state.question7_5Samoan}
           onChange={this.handleChange}
       />Samoan
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2AsianIndian"
-          checked={this.state.question7_2AsianIndian}
+          name="question7_5AsianIndian"
+          checked={this.state.question7_5AsianIndian}
           onChange={this.handleChange}
       />Asian Indian
        <br/>
         <br/>
       <input 
           type="checkbox" 
-          name="question7_2Japanese"
-          checked={this.state.question7_2Japanese}
+          name="question7_5Japanese"
+          checked={this.state.question7_5Japanese}
           onChange={this.handleChange}
       />Japanese
        <br/>
       <br/>
       <input 
           type="checkbox" 
-          name="question7_2Chamorro"
-          checked={this.state.question7_2Chamorro}
+          name="question7_5Chamorro"
+          checked={this.state.question7_5Chamorro}
           onChange={this.handleChange}
       />Chamorro
        <br/>
@@ -3616,8 +3627,8 @@ onChange={this.handleChange}
 
       <input 
           type="checkbox" 
-          name="question7_2OtherAsian"
-          checked={this.state.question7_2OtherAsian}
+          name="question7_5OtherAsian"
+          checked={this.state.question7_5OtherAsian}
           onChange={this.handleChange}
       />Other Asian
        <br/>
@@ -3628,12 +3639,12 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d4} 
-    name="question7_2d4" 
+    value={this.state.question7_5d4} 
+    name="question7_5d4" 
     placeholder="" 
     onChange={this.handleChange} 
 
-  />
+  />                
  
    <br/>
       <br/>
@@ -3641,8 +3652,8 @@ onChange={this.handleChange}
 
       <input 
           type="checkbox" 
-          name="question7_2OtherPI"
-          checked={this.state.question7_2OtherPI}
+          name="question7_5OtherPI"
+          checked={this.state.question7_5OtherPI}
           onChange={this.handleChange}
       />
      
@@ -3655,13 +3666,13 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d5} 
-    name="question7_2d5" 
+    value={this.state.question7_5d5} 
+    name="question7_5d5" 
     placeholder="" 
     onChange={this.handleChange} 
 
   />
-  
+          
   
    <br/>
       <br/>
@@ -3669,8 +3680,8 @@ onChange={this.handleChange}
 
     <input 
           type="checkbox" 
-          name="question7_2Other"
-          checked={this.state.question7_2Other}
+          name="question7_5Other"
+          checked={this.state.question7_5Other}
           onChange={this.handleChange}
       />
       Some other race 
@@ -3682,8 +3693,8 @@ onChange={this.handleChange}
       <br/>
     <input
     type="text" 
-    value={this.state.question7_2d6} 
-    name="question7_2d6" 
+    value={this.state.question7_5d6} 
+    name="question7_5d6" 
     placeholder="" 
     onChange={this.handleChange} 
 
