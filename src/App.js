@@ -5034,7 +5034,7 @@ onChange={this.handleChange}
 
 
 
-              <h1>Thank you for completing your 2020 Census questionnaire.</h1>
+              <h1 className="thanks">Thank you for completing the 2020 Census questionnaire.</h1>
 
 
 
