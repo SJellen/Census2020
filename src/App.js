@@ -321,15 +321,10 @@ class App extends Component {
         question3_10month: '',
         question3_10day: '',
         question3_10year: '',
-        question4_10: ''
+        question4_10: '',
 
 
-
-
-       
-
-
-       
+        
     }
     this.handleChange = this.handleChange.bind(this)
   }
@@ -4577,7 +4572,7 @@ onChange={this.handleChange}
         value="Yes"
         checked={this.state.question4_7 === "Yes"}
         onChange={this.handleChange}
-    /> Male
+    /> Yes
 </label>
 <br />
 <label>
@@ -4587,7 +4582,7 @@ onChange={this.handleChange}
         value="No"
         checked={this.state.question4_7 === "No"}
         onChange={this.handleChange}
-    /> Female
+    /> No
 </label>
 
 <br/>
@@ -4722,7 +4717,7 @@ onChange={this.handleChange}
         value="Yes"
         checked={this.state.question4_8 === "Yes"}
         onChange={this.handleChange}
-    /> Male
+    /> Yes
 </label>
 <br />
 <label>
@@ -4732,7 +4727,7 @@ onChange={this.handleChange}
         value="No"
         checked={this.state.question4_8 === "No"}
         onChange={this.handleChange}
-    /> Female
+    /> No
 </label>
 
 <br/>
@@ -4868,7 +4863,7 @@ onChange={this.handleChange}
         value="Yes"
         checked={this.state.question4_9 === "Yes"}
         onChange={this.handleChange}
-    /> Male
+    /> Yes
 </label>
 <br />
 <label>
@@ -4878,7 +4873,7 @@ onChange={this.handleChange}
         value="No"
         checked={this.state.question4_9 === "No"}
         onChange={this.handleChange}
-    /> Female
+    /> No
 </label>
 
 <br/>
@@ -4921,7 +4916,7 @@ onChange={this.handleChange}
 
                 />
          
-
+    
                
 <br/>
 <br/>
@@ -4956,6 +4951,8 @@ onChange={this.handleChange}
 <br/>
 <br/>
 <br/>
+
+    
 
 
 <label className="question">3. What is Person 10’s age and what is Person 10’s date of birth? For babies less than 1 year old, do not write the age in months. Write 0 as the age.</label>
@@ -5014,7 +5011,7 @@ onChange={this.handleChange}
         value="Yes"
         checked={this.state.question4_10 === "Yes"}
         onChange={this.handleChange}
-    /> Male
+    /> Yes
 </label>
 <br />
 <label>
@@ -5024,7 +5021,7 @@ onChange={this.handleChange}
         value="No"
         checked={this.state.question4_10 === "No"}
         onChange={this.handleChange}
-    /> Female
+    /> No
 </label>
 
 <br/>
@@ -5037,19 +5034,13 @@ onChange={this.handleChange}
 
 
 
+              <h1>Thank you for completing your 2020 Census questionnaire.</h1>
 
 
 
 
 
-
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+     
         <br/>
         <br/>
         <br/>
