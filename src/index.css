@@ -93,3 +93,50 @@ input {
   font-size: 1.5rem;
   text-align: center;
 }
+
+
+
+@media only screen and (max-width: 650px) {
+
+   body {
+     width: 100vw;
+   }
+  form{
+    width: 90vw;
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .instructions {
+    width: 80vw;
+  }
+
+  .title {
+    width: 100vw;
+  }
+
+
+input {
+  margin-left: 1rem;
+}
+
+.marking {
+  margin-left: .5rem;
+  
+}
+
+.input-head {
+  margin-left: 1rem;
+}
+
+.disclaimer {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+button {
+  left: 40%;
+}
+
+
+
+}
