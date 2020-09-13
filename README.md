@@ -1,4 +1,7 @@
 <h1 align="center">Welcome to Census 2020 👋</h1>
+
+
+![screenshot](https://github.com/SJellen/Census2020/blob/master/public/ScreenShot.png)
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-The Census in React. Learning to use state.-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/scottjellen" target="_blank">
@@ -34,7 +37,7 @@ npm run test
 
 👤 **Scott Jellen**
 
-* Website: scottjellen.me
+* Website: scottjellen.com
 * Twitter: [@scottjellen](https://twitter.com/scottjellen)
 * Github: [@SJellen](https://github.com/SJellen)
 
